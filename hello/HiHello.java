@@ -17,8 +17,10 @@ public class HiHello {
     public static void main(String[] args) {
         Hello a = new Hello();
         Hi b = new Hi();
+        Say c = new Say("ciao");       
         a.start();
         b.start();
+        c.start();
     }
     
 }
