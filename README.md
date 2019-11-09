@@ -65,3 +65,25 @@ Hello
 Hi
 Hello
 Hi
+run 4 con say:
+Hello
+ciao
+Hi
+Hi
+Hello
+Hello
+Hi
+Hello
+Hi
+Hi
+Hello
+Hi
+Hello
+Hello
+Hi
+Hi
+Hello
+Hello
+Hi
+Hello
+Hi
