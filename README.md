@@ -14,3 +14,25 @@ Succesivamente si introdotto un'altra classe di nome "say" che doveva eserre res
 Questo medoto confronto a quello prima di "hi" e "hello" è più veloce e più facile da leggere perchè bisogna eseguire solo una classe invece che due . Infine la classe "say" avrà solo il metodo "run()" dove permette di restituire grazie a un ciclo for , 10 volte la parola cosaDire.
 
 
+esempio 4 :
+Hello
+Hi
+ciao
+Hi
+Hello
+Hello
+Hi
+Hello
+Hi
+Hello
+Hi
+Hello
+Hi
+Hello
+Hi
+Hi
+Hello
+Hi
+Hello
+Hi
+Hello
