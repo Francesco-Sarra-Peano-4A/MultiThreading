@@ -1,8 +1,9 @@
 Teoria sul Multithdreading: 
+Un thread è una parte di un processo che viene eseguita in maniera indipendente dagli altri thread.
 
-La teoria del  multithreading  permette  di eseguire più  processi nello stesso momento.
+La teoria del  multithreading  permette  di eseguire più  processi nello stesso momento in modo che il programma sia più efficientemente.
 
-Questo esercizio permette di mandare per 10 volte le parole "HI" e "HELLO"  e in modo casuale :
+Come si può vedere in output le stringhe vengono stampate in maniera casuale e non ordinata, questo perché si sono creati tre oggetti della stessa classe e quindi sta al sistema operativo decidere l'ordine di stampa attraverso i suoi protocolli.
 
 esempio 1:
 Hi
@@ -98,10 +99,9 @@ Hi
 Hi
 Hi
 
-Succesivamente si introdotto un'altra classe di nome "say" che doveva eserre restituita in output sotto forma di stringa .
-Questo medoto confronto a quello prima di "hi" e "hello" è più veloce e più facile da leggere perchè bisogna eseguire solo una classe invece che due . Infine la classe "say" avrà solo il metodo "run()" dove permette di restituire grazie a un ciclo for , 10 volte la parola cosaDire.
+Per assegnare un thread ad un oggetto ha bisogna innanzitutto che la classe a cui è associata l'oggetto estenda la classe Classe thread , e che la classe abbia un metodo run().
+Per creare il thread è necessario che nel main ci sia un metodo .star() che crea il thread e questo messaggio di chiamata attiva il metodo run() , se al posto del metodo .start() ci fosse stata una chiamata .run() il thread non sarebbe stato creato.
 
-Nel main si usa il metodo .start perchè fa partire il Thread che esegue i metodi nel run .
-Succesivamente si dichiare cosaDire che verrà usato nel metodo Say perchè l'attributo "parola" viene usata solo per quel metodo.
+
 
 
