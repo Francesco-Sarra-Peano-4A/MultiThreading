@@ -3,7 +3,7 @@ Un thread è una parte di un processo che viene eseguita in maniera indipendente
 
 La teoria del  multithreading  permette  di eseguire più  processi nello stesso momento in modo che il programma sia più efficientemente.
 
-Come si può vedere in output le stringhe vengono stampate in maniera casuale e non ordinata, questo perché si sono creati tre oggetti della stessa classe e quindi sta al sistema operativo decidere l'ordine di stampa attraverso i suoi protocolli.
+Come si può vedere in output le stringhe vengono stampate in maniera casuale e non ordinata, questo perché si sono creati tre oggetti della stessa classe e quindi sta al sistema operativo decidere l'ordine di stampa .
 
 esempio 1:
 Hi
