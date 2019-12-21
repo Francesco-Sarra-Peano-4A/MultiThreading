@@ -1,4 +1,5 @@
 Teoria sul Multithdreading: 
+
 Un thread è una parte di un processo che viene eseguita in maniera indipendente dagli altri thread.
 
 La teoria del  multithreading  permette  di eseguire più  processi nello stesso momento in modo che il programma sia più efficientemente.
